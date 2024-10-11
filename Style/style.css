@@ -14,8 +14,6 @@ main,
 footer {
   width: 1440px;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
 }
 .primary-bg {
   background-color: #fafafa;
@@ -102,9 +100,10 @@ header {
 /* why developer styles  */
 .why-development-section {
   display: flex;
-  width: 1140px;
-  margin: 74px 0px 90px 0px;
+  /* width: 1140px; */
+  margin: 74px 152px 90px 148px;
   padding: 80px 97px;
+  justify-self: center;
 }
 
 .change-the-world-container {
@@ -211,4 +210,26 @@ header {
   letter-spacing: 0%;
   opacity: 0.7;
   margin-top: 16px;
+}
+
+/* inspiration styles */
+.inspiration-section {
+  margin: 74px 152px 90px 148px;
+}
+.section-description {
+  padding: 0px 144px;
+}
+.inspiration-video-container{
+  margin-top: 48px;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+.video-control {
+  width: 1076px;
+  height: 614px;
+  /* : 32px; */
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
 }
