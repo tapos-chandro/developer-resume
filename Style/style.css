@@ -71,7 +71,7 @@ footer {
   cursor: pointer;
 }
 .header-container {
-  background-image: url('./images/Hero-bg.png');
+  background-image: url('../images/Hero-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -397,7 +397,7 @@ footer {
 /* support styles  */
 .support-section {
   margin: 0px 150px;
-  background-image: url('./images/handshake.jpg');
+  background-image: url("../images/handshake.jpg");
   background-color: rgba(0, 0, 0, 0.2);
   background-blend-mode: overlay;
   padding: 64px 48px;
