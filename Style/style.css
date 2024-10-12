@@ -307,3 +307,61 @@ header {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
 }
+
+/* next target styles  */
+.next-targets-container {
+  margin-top: 48px;
+  margin-bottom: 49px;
+}
+.image-container{
+  display: flex;
+  align-items: center;
+}
+.image-container img {
+  width: 94px;
+  height: 84px;
+}
+
+.next-targets-section {
+  padding: 0px 150px;
+}
+
+.next-targets-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.next-target {
+  display: flex;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  gap: 24px;
+}
+
+.text-container h4 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+.text-container p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+
+}
+.text-container a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+
+
+}
